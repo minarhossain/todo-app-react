@@ -1,0 +1,35 @@
+.container{
+    width: 1040px;
+    margin: 0 auto;
+    background-color:rgb(228, 211, 211);
+    padding: 20px 0;
+    border-radius: 8px;
+}
+.input-field{
+    width: 80%;
+    padding: 12px;
+    background-color:rgb(150, 150, 224);
+    color: black;
+    border-radius: 5px;
+}
+.btn{
+    background-color:blue;
+    margin-left: 3px;
+    padding-bottom: 13px;
+}
+.btn-delete{
+    background-color:red;
+    margin-left: 3px;
+    padding-bottom: 13px;
+    color: white;
+    padding: 2px;
+}
+ul li{
+    color: black;
+    text-align: left;
+    margin:10px 0;
+    font-size:20px;
+}
+.bold{
+    color:blue;
+}
