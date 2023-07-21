@@ -29,7 +29,7 @@ const ToDoApp = () => {
             <ul>
                 {
                     taskList.map((task, index) => (
-                        <li key={index}>{task} <button className="btn-delete" onClick={() => removeTask(index)}>Remove</button></li>
+                        <li key={index}>{task} <button className="btn-delete" onClick={() => removeTask(index)}>Delete</button></li>
                     ))
                 }
             </ul>
